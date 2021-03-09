@@ -13,7 +13,7 @@ public class Logistic implements Serializable {
 	private static final long serialVersionUID = 1L;
 
 	@Id
-	private int idLogistic;
+	private int idlogistic;
 
 	private int labour;
 
@@ -38,7 +38,7 @@ public class Logistic implements Serializable {
 	public Logistic(int idLogistic, int labour, int merchantMarines, int portAndTerminals, int railWay, int roadWay,
 			int serviceableAirports, Country country) {
 		super();
-		this.idLogistic = idLogistic;
+		this.idlogistic = idLogistic;
 		this.labour = labour;
 		this.merchantMarines = merchantMarines;
 		this.portAndTerminals = portAndTerminals;
@@ -49,11 +49,11 @@ public class Logistic implements Serializable {
 	}
 
 	public int getIdLogistic() {
-		return this.idLogistic;
+		return this.idlogistic;
 	}
 
-	public void setIdLogistic(int idLogistic) {
-		this.idLogistic = idLogistic;
+	public void setIdlogistic(int idLogistic) {
+		this.idlogistic = idLogistic;
 	}
 
 	public int getLabour() {

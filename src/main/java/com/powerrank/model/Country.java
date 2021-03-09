@@ -14,8 +14,8 @@ public class Country implements Serializable {
 	private static final long serialVersionUID = 1L;
 
 	@Id
-	@Column(name="idCountry")
-	private int idCountry;
+	@Column(name="idcountry")
+	private int idcountry;
 
 	@Column(name="capital")
 	private String capital;
@@ -29,17 +29,17 @@ public class Country implements Serializable {
 
 	public Country(int idCountry, String capital, String countryName) {
 		super();
-		this.idCountry = idCountry;
+		this.idcountry = idCountry;
 		this.capital = capital;
 		this.countryName = countryName;
 	}
 
-	public int getIdCountry() {
-		return idCountry;
+	public int getIdcountry() {
+		return idcountry;
 	}
 
-	public void setIdCountry(int idCountry) {
-		this.idCountry = idCountry;
+	public void setIdcountry(int idCountry) {
+		this.idcountry = idCountry;
 	}
 
 	public String getCapital() {

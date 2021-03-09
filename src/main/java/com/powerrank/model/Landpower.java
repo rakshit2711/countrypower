@@ -13,7 +13,7 @@ public class Landpower implements Serializable {
 	private static final long serialVersionUID = 1L;
 
 	@Id
-	private int idLand;
+	private int idland;
 
 	private int armouredVehicle;
 
@@ -36,7 +36,7 @@ public class Landpower implements Serializable {
 	public Landpower(int idLand, int armouredVehicle, int rocketProjector, int selfPropelledArtillery, int tank,
 			int towedArtillery, Country country) {
 		super();
-		this.idLand = idLand;
+		this.idland = idLand;
 		this.armouredVehicle = armouredVehicle;
 		this.rocketProjector = rocketProjector;
 		this.selfPropelledArtillery = selfPropelledArtillery;
@@ -45,12 +45,12 @@ public class Landpower implements Serializable {
 		this.country = country;
 	}
 
-	public int getIdLand() {
-		return this.idLand;
+	public int getIdland() {
+		return this.idland;
 	}
 
-	public void setIdLand(int idLand) {
-		this.idLand = idLand;
+	public void setIdland(int idLand) {
+		this.idland = idLand;
 	}
 
 	public int getArmouredVehicle() {

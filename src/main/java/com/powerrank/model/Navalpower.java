@@ -13,7 +13,7 @@ public class Navalpower implements Serializable {
 	private static final long serialVersionUID = 1L;
 
 	@Id
-	private int idNaval;
+	private int idnaval;
 
 	private int aircraftCarrier;
 
@@ -44,7 +44,7 @@ public class Navalpower implements Serializable {
 	public Navalpower(int idNaval, int aircraftCarrier, int corvettes, int destroyers, int frigate,
 			int helicopterCarrier, int mineWarfare, int patrol, int submarine, int totalAsset, Country country) {
 		super();
-		this.idNaval = idNaval;
+		this.idnaval = idNaval;
 		this.aircraftCarrier = aircraftCarrier;
 		this.corvettes = corvettes;
 		this.destroyers = destroyers;
@@ -57,12 +57,12 @@ public class Navalpower implements Serializable {
 		this.country = country;
 	}
 
-	public int getIdNaval() {
-		return this.idNaval;
+	public int getIdnaval() {
+		return this.idnaval;
 	}
 
-	public void setIdNaval(int idNaval) {
-		this.idNaval = idNaval;
+	public void setIdnaval(int idNaval) {
+		this.idnaval = idNaval;
 	}
 
 	public int getAircraftCarrier() {

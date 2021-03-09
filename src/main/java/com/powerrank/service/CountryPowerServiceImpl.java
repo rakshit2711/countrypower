@@ -45,14 +45,14 @@ public class CountryPowerServiceImpl implements CountryPowerService {
 		countryList.stream().forEach(country->{
 			CountryPower countrypower=new CountryPower();
 			countrypower.setCountry(country);
-			countrypower.setAirpowers((airpowerService.findByCountryId(country.getIdCountry())));
-			countrypower.setFinances(financerService.findByCountryId(country.getIdCountry()));
-			countrypower.setGeographies(geographyService.findByCountryId(country.getIdCountry()));
-			countrypower.setLandpowers(landpowerService.findByCountryId(country.getIdCountry()));
-			countrypower.setLogistics(logisticService.findByCountryId(country.getIdCountry()));
-			countrypower.setManpowers(manpowerService.findByCountryId(country.getIdCountry()));
-			countrypower.setNatresources(natresourcesService.findByCountryId(country.getIdCountry()));
-			countrypower.setNavalpowers(navalpowerService.findByCountryId(country.getIdCountry()));
+			countrypower.setAirpowers((airpowerService.findByCountryId(country.getIdcountry())));
+			countrypower.setFinances(financerService.findByCountryId(country.getIdcountry()));
+			countrypower.setGeographies(geographyService.findByCountryId(country.getIdcountry()));
+			countrypower.setLandpowers(landpowerService.findByCountryId(country.getIdcountry()));
+			countrypower.setLogistics(logisticService.findByCountryId(country.getIdcountry()));
+			countrypower.setManpowers(manpowerService.findByCountryId(country.getIdcountry()));
+			countrypower.setNatresources(natresourcesService.findByCountryId(country.getIdcountry()));
+			countrypower.setNavalpowers(navalpowerService.findByCountryId(country.getIdcountry()));
 			countrypowerList.add(countrypower);
 		});
 		

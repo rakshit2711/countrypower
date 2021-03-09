@@ -18,7 +18,7 @@ public class Airpower implements Serializable {
 	public Airpower(int idAir, int attackHelicopter, int dedicatedAttack, int fighter, int helicopter,
 			int specialMission, int tankerFleet, int totalStrength, int trainer, int transport, Country country) {
 		super();
-		this.idAir = idAir;
+		this.idair = idAir;
 		this.attackHelicopter = attackHelicopter;
 		this.dedicatedAttack = dedicatedAttack;
 		this.fighter = fighter;
@@ -34,7 +34,7 @@ public class Airpower implements Serializable {
 	private static final long serialVersionUID = 1L;
 
 	@Id
-	private int idAir;
+	private int idair;
 
 	private int attackHelicopter;
 
@@ -59,12 +59,12 @@ public class Airpower implements Serializable {
 	private Country country;
 
 	
-	public int getIdAir() {
-		return this.idAir;
+	public int getIdair() {
+		return this.idair;
 	}
 
-	public void setIdAir(int idAir) {
-		this.idAir = idAir;
+	public void setIdair(int idAir) {
+		this.idair = idAir;
 	}
 
 	public int getAttackHelicopter() {
