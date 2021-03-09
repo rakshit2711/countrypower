@@ -3,7 +3,7 @@ package com.powerrank.model;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "Users")
+@Table(name = "users",schema="dbo")
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
