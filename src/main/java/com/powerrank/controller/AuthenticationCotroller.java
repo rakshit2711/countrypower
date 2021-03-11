@@ -15,7 +15,9 @@ import com.powerrank.domain.AuthenticationResponse;
 import com.powerrank.service.MyUserDetailsService;
 import com.powerrank.util.JwtUtil;
 
+import springfox.documentation.annotations.ApiIgnore;
 
+//@ApiIgnore
 @RestController
 public class AuthenticationCotroller {
 	
