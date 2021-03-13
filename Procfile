@@ -1,1 +1,1 @@
-web: Java $JAVA_OPTS -jar target/*.war
+web: java $JAVA_OPTS -cp target/classes:target/dependency/* com.powerrank.GlobalPowerRankerAplication

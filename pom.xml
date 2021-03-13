@@ -107,9 +107,8 @@
 				<configuration>
          		<mainClass>com.powerrank.GlobalPowerRankerApplication</mainClass> 
      			</configuration>
-     			<executions>
+                <executions>
                     <execution>
-                        <id>copy-dependencies</id>
                         <phase>package</phase>
                         <goals><goal>repackage</goal></goals>
                     </execution>
