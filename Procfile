@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -cp target/classes:target/dependency/* com.powerrank.GlobalPowerRankerApplication
+web: java $JAVA_OPTS -jar target/countrypower.war -Dserver.port=$PORT $JAR_OPTS
